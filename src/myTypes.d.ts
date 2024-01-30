@@ -12,8 +12,14 @@ export interface Colleague {
       extension: number
     } 
   }
-
+  export interface EmailContact {
+    name: string;
+    email: string
+}
 export interface ColleagueHistory {
   current: Colleague[],
   former: Colleague[]
+}
+export interface FriendName {
+  name: string;
 }
